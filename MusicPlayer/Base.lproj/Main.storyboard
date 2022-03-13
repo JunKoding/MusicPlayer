@@ -39,6 +39,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="playPauseButton" destination="NIb-hB-lbs" id="8iQ-Ve-DyL"/>
+                        <outlet property="progressSlider" destination="kjo-bp-SEM" id="ITl-ER-Ike"/>
+                        <outlet property="timeRabel" destination="zD1-rE-Yal" id="Cuv-Ef-l2A"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
