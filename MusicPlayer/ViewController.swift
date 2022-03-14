@@ -22,5 +22,14 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func touchUpPlayPauseButton(_ sender: UIButton) {
+        
+        print("button tapped.")
+    }
+    
+    
+    @IBAction func sliderChanged(_ sender: UISlider) {
+        print("slider value changed.")
+    }
 }
 
